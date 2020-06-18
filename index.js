@@ -2,9 +2,9 @@
 
 const boxes = 10;
 
-function superInefficient(int) {
-  for (let i = 0; i < int; i++) {
-    superInefficient(int - 1);
+function superInefficient(n) {
+  for (let i = 0; i < n; i++) {
+    superInefficient(n - 1);
   }
 }
 
